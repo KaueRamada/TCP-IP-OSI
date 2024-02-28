@@ -5,3 +5,56 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root{
+    --color1:#205799;
+    --color2:#0b3d7b;
+    --light:#fff;
+    --dark:#323637;
+}
+
+.navbar{
+    height: 80px;
+    width: 100vw;
+    background-color: var(--dark);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.navbar img{
+    width: 70px;
+}
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover{
+    background-color: var(--color1);
+    padding: 10px 5px 10px 5px;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+
+.navbar ul li a{
+    color: var(--light);
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.navbar ul li:not(.navbar ul li:nth-child(3)){
+    margin-right: 25px;
+}
+
+section.home{
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
