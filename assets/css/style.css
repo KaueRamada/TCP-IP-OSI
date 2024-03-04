@@ -21,6 +21,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 70px 0 70px;
+    box-shadow: 0px 10px 25px 0px rgba(22, 22, 22, 0.685);
 }
 
 .navbar img {
@@ -64,8 +65,9 @@ section.home {
     overflow-x: hidden;
 }
 
-section.home div {
+section.home div.content {
     width: 50%;
+    margin-top: 120px;
 }
 
 section.home div h1 {
@@ -117,6 +119,7 @@ section.home .btns ul li:active {
 section.home svg {
     width: 900px;
     height: 900px;
+    margin-top: 120px;
 }
 
 .ocean {
