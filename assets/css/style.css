@@ -74,8 +74,9 @@ section.home {
     overflow-x: hidden;
 }
 
-section.home div {
+section.home div.content {
     width: 50%;
+    margin-top: 120px;
 }
 
 section.home div h1 {
@@ -127,6 +128,7 @@ section.home .btns ul li:active {
 section.home svg {
     width: 900px;
     height: 900px;
+    margin-top: 120px;
 }
 
 .ocean {
