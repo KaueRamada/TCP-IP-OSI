@@ -21,6 +21,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 70px 0 70px;
+    box-shadow: 5px 0 20px 10px #353535ab;
 }
 
 .navbar img {
@@ -44,13 +45,22 @@
     transition: 0.2s;
 }
 
+.navbar ul li.active a {
+    background-color: var(--color2);
+    padding: 10px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+
+
 .navbar ul li a {
     color: var(--light);
     text-decoration: none;
     font-size: 22px;
 }
 
-.navbar ul li:not(.navbar ul li:nth-child(3)) {
+.navbar ul li:not(.navbar ul li:nth-child(4)) {
     margin-right: 25px;
 }
 
